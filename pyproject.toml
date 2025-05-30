@@ -1,0 +1,15 @@
+[project]
+name = "chat-bot-using-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "grandalf>=0.8",
+    "ipython>=9.2.0",
+    "langchain-tavily>=0.1.6",
+    "langchain[openai]>=0.3.25",
+    "langgraph>=0.4.5",
+    "langsmith>=0.3.42",
+    "python-dotenv>=1.1.0",
+]
