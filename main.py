@@ -22,7 +22,7 @@ class State(TypedDict):
     ]
 
 
-llm = init_chat_model("openai:gpt-4.1")
+llm = init_chat_model("openai:gpt-4o-mini")
 tool = TavilySearch(max_results=2)
 graph_builder = StateGraph(State)
 
